@@ -1,0 +1,46 @@
+.gradient-background {
+    background: linear-gradient(300deg,#98D2C0, #F6F8D5, #107279);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+ .gradient2-background{
+    background: linear-gradient(300deg, #205781,#4F959D,#8F9E6F);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+
+ }
+ .lead{
+    font-family: fantasy;
+
+ }
+ .center-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Full height of the viewport */
+}
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+     /* Full height of the viewport */
+}
+.container2{
+    background-color: rgb(165, 174, 228);
+}
+
+    
